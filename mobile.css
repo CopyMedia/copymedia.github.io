@@ -1,0 +1,92 @@
+@media only screen and (max-width: 500px) {
+
+    /* HEADER */
+    
+    header {
+        padding: 20px 40px;
+        max-width: 500px;
+    }
+
+    .nav_links {
+        flex-grow: 0;
+        justify-content: unset;
+        align-items: unset;
+    }
+
+    /* Mobile NavBar */
+
+    .dktl {
+        display: none !important;
+    }
+
+    #mnb-hamburger {
+        display: flex;
+        font-size: 30px !important;
+    }
+
+    #mnb-hamburger-btn {
+        font-size: 30px !important;
+    }
+
+    .mnb_links {
+        display: block;
+    }
+
+
+    .mainpageheader, .aboutpageheader, .privacypageheader {
+        padding: 80px 50px !important;
+    }
+
+    /* KEK */
+
+    .s-head {
+        font-size: 28px;
+    }
+    
+    .s-head_small {
+        font-size: 24px;
+    }
+    
+    .default-txt {
+        color: rgb(20, 20, 20);
+        font-family: "Maison-Neue";
+    }
+    
+    .para {
+        margin-top: 30px;
+        line-height: 1.6;
+        font-size: 16px;
+    }
+
+    /* PAGE */
+
+    .mphcard-btn {
+        font-size: 14px;
+    }
+
+    .container {
+        margin: 50px 30px !important;
+    }
+
+    /* FOOTER */
+
+    footer {
+        padding-top: 50px;
+    }
+
+    .footer-sections {
+        display: block !important;
+        padding: 0 !important;
+    }
+
+    .footersection {
+        margin: 20px 0px 30px 0px;
+    }
+
+    .footer-logo {
+        height: 25px;
+        display: block !important;
+        margin: 0px auto 50px auto !important;
+        text-align: center !important;
+    }
+}

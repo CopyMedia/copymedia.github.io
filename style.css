@@ -1,0 +1,288 @@
+@font-face {
+    font-family: "Entertainmasters-Sans";
+    src: url('./fonts/EM-SANS.ttf');
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('./fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Maison-Neue";
+    src: url('./fonts/MaisonNeue-Light.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+li > a {
+    font-size: 18px;
+    font-family: "Maison-Neue";
+    color: rgb(50, 50, 50);
+}
+
+header {
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(210, 210, 210);
+    padding: 15px 10%;
+    display: flex;
+    align-items: center;
+}
+
+header > li, a {
+    list-style: none;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.logo, .logo:visited {
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.logo:hover {
+    opacity: 80%;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+  
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(210, 210, 210);
+    padding: 15px 10%;
+}
+
+.header .nav_links {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header .nav_links li {
+    padding: 0 20px;
+}
+
+.header .logo {
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.cme-icon {
+    filter: brightness(70%); 
+    height: 35px;
+}
+
+.header-link:hover {
+    color: #0d2391 !important;
+}
+
+/* Mobile NavBar */
+
+#mnb-hamburger {
+    font-size: 30px;
+    font-weight: bold;
+    display: none;
+}
+
+#mnb-hamburger-btn {
+    transition: 0.1s all;
+    font-family: "Maison-Neue";
+}
+
+#mobilenavbar {
+    font-family: "Maison-Neue";
+    transition: 0.1s all;
+}
+
+.mnb_links {
+    display: none;
+}
+
+.mnb-link, .mnb-link:visited {
+    padding: 10px 20px;
+    display: block;
+    background: rgb(190, 190, 190);
+    color: black;
+}
+
+/* ScrollBars */
+
+::-webkit-scrollbar {
+    background: #00060f;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #09265c;
+}
+
+/* KEK */
+
+.centre {
+    text-align: center;
+}
+
+.s-head {
+    font-size: 34px;
+}
+
+.s-head_small {
+    font-size: 24px;
+}
+
+.default-txt {
+    color: rgb(20, 20, 20);
+    font-family: "Maison-Neue";
+}
+
+.para {
+    margin-top: 30px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.text-link {
+    color: #2e66c7;
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer {
+    background: #0c1b38;
+    padding-bottom: 30px;
+}
+
+.footer-logo {
+    margin: 50px 0px 100px 200px;
+    filter: brightness(300%);
+}
+
+.footer-sections {
+    padding: 0px 200px;
+    display: grid;
+    gap: 200px;
+    grid-template-columns: auto auto auto;
+}
+
+.fs-head {
+    color: white;
+    font-size: 18px;
+    font-family: "Maison-Neue";
+    margin-bottom: 20px;
+}
+
+.feet-nav_links {
+    list-style: none;
+    padding: 0;
+}
+
+.feet-nav_links li {
+    margin-bottom: 10px;
+}
+
+.feet-link {
+    text-decoration: none;
+    color: #b0b0b0;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.feet-link:hover {
+    opacity: 0.8;
+}
+
+.copyright {
+    margin: 50px 0px;
+    text-align: center;
+    color: #b0b0b0;
+    font-family: "Maison-Neue";
+}
+
+/* HEADERS */
+
+.mainpageheader, .aboutpageheader, .privacypageheader {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 200px;
+}
+
+.mainpageheader {
+    background-image: url('./img/dssdasdaasd.png');
+
+}
+
+.aboutpageheader {
+    background-image: url('https://in.nec.com/en_IN/solutions_services/display_solutions/digital-cinema/images/header_sp.jpg');
+    padding: 150px 200px;
+}
+
+.privacypageheader {
+    background-image: url('https://www.dpd.com/wp-content/uploads/sites/59/2023/04/Datenschutz_mobile.jpg');
+    padding: 100px 200px;
+}
+
+/* PAGE */
+
+.container {
+    margin: 100px;
+}
+
+/* [top, right, bottom, left] */
+.mainpageheadercard {
+    padding: 30px 100px 40px 30px;
+    display: inline-block;
+    background: rgba(24, 98, 184, 0.9);
+}
+
+.mphhead, .aphhead, .pphead {
+    font-family: "Maison-Neue";
+    font-size: 36px;
+    color: white;
+}
+
+.mphtext, .aphtext {
+    margin-top: 30px;
+    font-family: "Maison-Neue";
+    color: white;
+    line-height: 1.6;
+}
+
+.aphhead {
+    color: #0d49bf;
+}
+
+.mphcard-btn {
+    display: inline-block;
+    margin-top: 150px;
+    padding: 15px 50px;
+    font-family: "Maison-Neue";
+    background: #051b40;
+    color: white;
+}
+
+.mphcard-btn:hover {
+    background: #0a3173;
+}
