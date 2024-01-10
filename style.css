@@ -1,16 +1,19 @@
 @font-face {
     font-family: "Entertainmasters-Sans";
     src: url('./fonts/EM-SANS.ttf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Inter";
     src: url('./fonts/Inter-Regular.ttf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Maison-Neue";
     src: url('./fonts/MaisonNeue-Light.ttf');
+    font-display: swap;
 }
 
 * {
