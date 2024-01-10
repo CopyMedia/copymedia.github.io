@@ -166,6 +166,12 @@ header > li, a {
     text-decoration: underline;
 }
 
+/* GLOBALS */
+
+.default-link:hover, .prtner-logo:hover {
+    opacity: 80%;
+}
+
 /* FOOTER */
 
 footer {
@@ -174,7 +180,7 @@ footer {
 }
 
 .footer-logo {
-    margin: 50px 0px 100px 200px;
+    margin: 50px 0px 70px 200px;
     filter: brightness(6969%);
 }
 
@@ -284,4 +290,62 @@ footer {
 
 .mphcard-btn:hover {
     background: #0a3173;
+}
+
+.default-link {
+    color: #071a6b;
+    transition: 0.15s;
+}
+
+.partnerlogos {
+    margin: 50px 0;
+}
+
+.prtner-logo {
+    height: 50px;
+    transition: 0.15s;
+}
+
+/* SLIDER */
+
+.slider {
+    height: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.slider:hover .slider-items {
+    animation-play-state: paused;
+}
+
+.slider-items {
+    display: inline-block;
+    animation: scroll 4s linear infinite;
+}
+
+.slider-items img {
+    margin: 0 165px;
+}
+
+/* SITEMAP */
+
+.sitemap-big {
+    font-size: 22px;
+    margin: 15px 0px 10px 0px;
+    font-family: "Maison-Neue";
+}
+
+.sitemap-list {
+    list-style: none;
+    margin: 0px 30px; 
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }

@@ -68,6 +68,12 @@
         margin: 50px 30px !important;
     }
 
+    /* SLIDER */
+
+    .slider-items img {
+        margin: 0 30px;
+    }
+
     /* FOOTER */
 
     footer {
