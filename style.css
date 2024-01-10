@@ -369,7 +369,7 @@ footer {
 
 .slider-items {
     display: inline-block;
-    animation: scroll 9s linear infinite;
+    animation: scroll 12s linear infinite;
 }
 
 .slider-items img {
