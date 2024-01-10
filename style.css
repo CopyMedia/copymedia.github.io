@@ -169,10 +169,26 @@ header > li, a {
     text-decoration: underline;
 }
 
+.mt-5 {
+    margin-top: 50px;
+}
+
+.desktop-only-flex {
+    display: flex;
+}
+
 /* GLOBALS */
 
 .default-link:hover, .prtner-logo:hover {
     opacity: 80%;
+}
+
+.cardhead, .cardtext {
+    font-family: "Maison-Neue";
+}
+
+.cardhead, .cardtext {
+    color: white;
 }
 
 /* FOOTER */
@@ -252,6 +268,36 @@ footer {
     padding: 100px 200px;
 }
 
+/* CARDS */
+
+.darkblue-card {
+    background: #03156b;
+}
+
+.green-card {
+    background: #00ba2f;
+}
+
+.blue-card {
+    background: #2153ed;
+}
+
+.a-card {
+    max-width: 500px;
+    margin: 50px 75px 0 0;
+    padding: 30px 50px 300px 30px;
+    display: inline-block;
+}
+
+.cardhead {
+    font-size: 30px;
+    margin: 0 0 40px;
+}
+
+.cardtext {
+    line-height: 1.6;
+}
+
 /* PAGE */
 
 .container {
@@ -323,7 +369,7 @@ footer {
 
 .slider-items {
     display: inline-block;
-    animation: scroll 4s linear infinite;
+    animation: scroll 9s linear infinite;
 }
 
 .slider-items img {

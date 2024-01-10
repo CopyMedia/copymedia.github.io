@@ -58,6 +58,10 @@
         font-size: 16px;
     }
 
+    .desktop-only-flex {
+        display: block !important;
+    }
+
     /* PAGE */
 
     .mphcard-btn {
@@ -66,6 +70,13 @@
 
     .container {
         margin: 50px 30px !important;
+    }
+
+    /* CARD */
+
+    .a-card {
+        padding: 30px 25px 50px 30px;
+        margin: 20px 0 0 0;
     }
 
     /* SLIDER */
