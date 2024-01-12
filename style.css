@@ -376,6 +376,10 @@ footer {
     margin: 0 165px;
 }
 
+.slider-items:last-child {
+    animation: scroll 12s linear infinite;
+}
+
 /* SITEMAP */
 
 .sitemap-big {
