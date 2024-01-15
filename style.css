@@ -183,7 +183,7 @@ header > li, a {
     opacity: 80%;
 }
 
-.cardhead, .cardtext {
+.cardhead, .cardtext, .managment-card-name, .managment-card-title {
     font-family: "Maison-Neue";
 }
 
@@ -391,6 +391,23 @@ footer {
 .sitemap-list {
     list-style: none;
     margin: 0px 30px; 
+}
+
+.managmentcard {
+    margin-top: 50px;
+    display: inline-block;
+    background: rgb(230, 230, 230);
+    padding: 20px 80px 40px 30px;
+}
+
+.management-card-img {
+    max-width: 120px;
+    height: 120px;
+}
+
+.managment-card-name {
+    margin: 15px 0;
+    font-size: 28px;
 }
 
 
