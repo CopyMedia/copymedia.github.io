@@ -35,7 +35,7 @@ const FooterHTML = `
                 <div class="footersection">
                     <p class="fs-head">Legal</p>
                     <ul class="feet-nav_links">
-                        <li><a href="#" class="feet-link">Imprint</a></li>
+                        <li><a href="imprint.html" class="feet-link">Imprint</a></li>
                         <li><a href="privacy.html" class="feet-link">Privacy Policy</a></li>
                     </ul>
                 </div>

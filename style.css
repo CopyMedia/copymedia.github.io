@@ -177,6 +177,10 @@ header > li, a {
     display: flex;
 }
 
+.blue-head {
+    color: #0a3173;
+}
+
 /* GLOBALS */
 
 .default-link:hover, .prtner-logo:hover {
@@ -259,12 +263,17 @@ footer {
 }
 
 .aboutpageheader {
-    background-image: url('https://in.nec.com/en_IN/solutions_services/display_solutions/digital-cinema/images/header_sp.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://agesoftoss.github.io/src/skyscrappers.jpg");
     padding: 150px 200px;
 }
 
 .privacypageheader {
     background-image: url('https://www.dpd.com/wp-content/uploads/sites/59/2023/04/Datenschutz_mobile.jpg');
+    padding: 100px 200px;
+}
+
+.imprintpageheader {
+    background-image: url('https://www.wernersobek.com/wp-content/uploads/resized/2021/05/729_d0def-1920x0-c-default.jpg');
     padding: 100px 200px;
 }
 
