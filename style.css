@@ -392,7 +392,7 @@ footer {
 /* SITEMAP */
 
 .sitemap-big {
-    font-size: 22px;
+    font-size: 14px;
     margin: 15px 0px 10px 0px;
     font-family: "Maison-Neue";
 }
@@ -400,6 +400,18 @@ footer {
 .sitemap-list {
     list-style: none;
     margin: 0px 30px; 
+}
+
+.sitemap-link, .sitemap-link-imp {
+    font-family: "Maison-Neue";
+    font-size: 14px;
+    display: block;
+    margin: 0.5rem 0;
+    color: #6b6c6d;
+}
+
+.sitemap-link-imp {
+    color: #21377C;
 }
 
 .managmentcard {
