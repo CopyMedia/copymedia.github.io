@@ -10,9 +10,9 @@ const MobileNavBar = document.getElementById("mobilenavbar")
 const Hamburger = document.getElementById("mnb-hamburger")
 
 const HeaderHTML = `
-<a href="index.html" class="logohref"><img src="./img/Icon.png" alt="CME Logo" class="logo cme-icon"></a>
+<a href="https://copymedia.github.io/index.html" class="logohref"><img src="https://copymedia.github.io/img/Icon.png" alt="CME Logo" class="logo cme-icon"></a>
         <ul class="nav_links">
-            <li class="dktl"><a href="about.html" class="header-link dktl">About</a></li>
+            <li class="dktl"><a href="https://copymedia.github.io/about.html" class="header-link dktl">About</a></li>
             <li class="dktl"><a href="#" class="header-link dktl">Industries</a></li>
             <li class="dktl"><a href="#" class="header-link dktl">Company</a></li>
             <li id="mnb-hamburger"><a href="#" id="mnb-hamburger-btn">≡</a></li>
@@ -21,29 +21,29 @@ const HeaderHTML = `
 
 const MobileNavBarHTML = `
 <div class="mnb_links">
-    <a class="mnb-link" href="about.html">About</a>
+    <a class="mnb-link" href="https://copymedia.github.io/about.html">About</a>
     <a class="mnb-link" href="#">Industries</a>
     <a class="mnb-link" href="#">Company</a>
 </div>
 `
 
 const FooterHTML = `
-<img src="./img/Icon.png" alt="CME Logo" class="cme-icon footer-logo">
+<img src="https://copymedia.github.io/img/Icon.png" alt="CME Logo" class="cme-icon footer-logo">
 
         <div class="centre">
             <div class="footer-sections">
                 <div class="footersection">
                     <p class="fs-head">Legal</p>
                     <ul class="feet-nav_links">
-                        <li><a href="imprint.html" class="feet-link">Imprint</a></li>
-                        <li><a href="privacy.html" class="feet-link">Privacy Policy</a></li>
+                        <li><a href="https://copymedia.github.io/imprint.html" class="feet-link">Imprint</a></li>
+                        <li><a href="https://copymedia.github.io/privacy.html" class="feet-link">Privacy Policy</a></li>
                     </ul>
                 </div>
     
                 <div class="footersection">
                     <p class="fs-head">Company</p>
                     <ul class="feet-nav_links">
-                        <li><a href="about.html" class="feet-link">About</a></li>
+                        <li><a href="https://copymedia.github.io/about.html" class="feet-link">About</a></li>
                     </ul>
                 </div>
 

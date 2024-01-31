@@ -250,7 +250,7 @@ footer {
 
 /* HEADERS */
 
-.mainpageheader, .aboutpageheader, .privacypageheader {
+.mainpageheader, .aboutpageheader, .privacypageheader, .innovativepageheader {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -259,7 +259,6 @@ footer {
 
 .mainpageheader {
     background-image: url('./img/dssdasdaasd.png');
-
 }
 
 .aboutpageheader {
@@ -289,6 +288,10 @@ footer {
 
 .blue-card {
     background: #2153ed;
+}
+
+.orange-card {
+    background: #ff4d00;
 }
 
 .a-card {
@@ -431,6 +434,18 @@ footer {
     font-size: 28px;
 }
 
+/** Innovative Site **/
+
+.innovativepageheader {
+    background-image: url('./img/diuosfosfsfosf.png');
+    padding: 80px 200px;
+}
+
+.innovativepageheadercard {
+    padding: 30px 120px 40px 30px;
+    display: inline-block;
+    background: rgba(24, 98, 184, 0.9);
+}
 
 @keyframes scroll {
     0% {
