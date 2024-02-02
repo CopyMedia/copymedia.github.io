@@ -33,7 +33,7 @@
     }
 
 
-    .mainpageheader, .aboutpageheader, .privacypageheader, .imprintpageheader, .innovativepageheader {
+    .mainpageheader, .aboutpageheader, .privacypageheader, .imprintpageheader, .innovativepageheader, .workspageheader {
         padding: 80px 50px !important;
     }
 
@@ -105,5 +105,19 @@
         display: block !important;
         margin: 0px auto 50px auto !important;
         text-align: center !important;
+    }
+
+    /* VIDEO SLIDER */
+
+    .video-slider {
+        margin-right: 30px;
+    }
+
+    .workshref {
+        height: 150px;
+    }
+
+    .workshref:hover {
+        height: 160px;
     }
 }

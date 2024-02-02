@@ -250,7 +250,7 @@ footer {
 
 /* HEADERS */
 
-.mainpageheader, .aboutpageheader, .privacypageheader, .innovativepageheader {
+.mainpageheader, .aboutpageheader, .privacypageheader, .innovativepageheader, .workspageheader {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -437,15 +437,35 @@ footer {
 
 /** Innovative Site **/
 
-.innovativepageheader {
+.innovativepageheader, .workspageheader {
     background-image: url('./img/diuosfosfsfosf.png');
     padding: 80px 200px;
 }
 
-.innovativepageheadercard {
+.innovativepageheadercard, .workspageheadercard {
     padding: 30px 120px 40px 30px;
     display: inline-block;
     background: rgba(24, 98, 184, 0.9);
+}
+
+/* WORKS Site */
+
+.workspageheader {
+    background-image: url('https://www.dhresource.com/webp/m/0x0/f2/albu/g16/M00/8B/A7/rBVa32Ab5fyAHgfOAADaUVOjDjw109.jpg');
+}
+
+.video-slider {
+    margin: 20px 30px;
+}
+
+.workshref {
+    border-radius: 16px;
+    height: 200px;
+    transition: 0.2s ease;
+}
+
+.workshref:hover {
+    height: 210px;
 }
 
 @keyframes scroll {
