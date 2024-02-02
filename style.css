@@ -411,9 +411,10 @@ footer {
     display: block;
     margin: 0.5rem 0;
     color: #6b6c6d;
+    transition: 0.15s;
 }
 
-.sitemap-link-imp {
+.sitemap-link-imp, .sitemap-link:hover {
     color: #21377C;
 }
 
