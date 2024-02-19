@@ -44,6 +44,7 @@ const FooterHTML = `
                     <p class="fs-head">Company</p>
                     <ul class="feet-nav_links">
                         <li><a href="https://copymedia.github.io/about.html" class="feet-link">About</a></li>
+                        <li><a href="https://copymedia.github.io/corporate-news.html" class="feet-link">Corporate News</a></li>
                     </ul>
                 </div>
 

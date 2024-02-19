@@ -250,7 +250,7 @@ footer {
 
 /* HEADERS */
 
-.mainpageheader, .aboutpageheader, .privacypageheader, .innovativepageheader, .workspageheader {
+.mainpageheader, .aboutpageheader, .privacypageheader, .innovativepageheader, .workspageheader, .corperate-news-page-header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -261,9 +261,14 @@ footer {
     background-image: url('./img/dssdasdaasd.png');
 }
 
-.aboutpageheader {
+.aboutpageheader  {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://agesoftoss.github.io/src/skyscrappers.jpg");
     padding: 150px 200px;
+}
+
+.corperate-news-page-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://images.pexels.com/photos/1400249/pexels-photo-1400249.jpeg");
+    padding: 0 0 0 300px;
 }
 
 .privacypageheader {
@@ -323,13 +328,19 @@ footer {
     background: rgba(24, 98, 184, 0.9);
 }
 
-.mphhead, .aphhead, .pphead {
+.corperate-news-header-card {
+    padding: 80px 200px 80px 80px;
+    display: inline-block;
+    background: rgba(50, 50, 50);
+}
+
+.mphhead, .aphhead, .pphead, .cnphhead {
     font-family: "Maison-Neue";
     font-size: 36px;
     color: white;
 }
 
-.mphtext, .aphtext {
+.mphtext, .aphtextm, .cnphtext {
     margin-top: 30px;
     font-family: "Maison-Neue";
     color: white;
@@ -338,6 +349,10 @@ footer {
 
 .aphhead {
     color: #0d49bf;
+}
+
+.cnphhead {
+    font-size: 45px;
 }
 
 .mphcard-btn {
@@ -349,8 +364,21 @@ footer {
     color: white;
 }
 
+.cn-btn {
+    display: inline-block;
+    margin-top: 150px;
+    padding: 15px 50px;
+    font-family: "Maison-Neue";
+    background: rgb(60, 60, 60);
+    color: white;
+}
+
 .mphcard-btn:hover {
     background: #0a3173;
+}
+
+.cn-btn:hover {
+    background: rgb(70, 70, 70);
 }
 
 .default-link {

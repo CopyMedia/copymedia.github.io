@@ -37,6 +37,17 @@
         padding: 80px 50px !important;
     }
 
+    .corperate-news-page-header {
+        padding: 80px 0px !important;
+    }
+
+    /* [top, right, bottom, left] */
+    .corperate-news-header-card {
+        margin-left: 10px;
+        padding: 30px 0 70px 30px;
+        width: 95%;
+    }
+
     /* KEK */
 
     .s-head {
@@ -70,6 +81,10 @@
 
     .container {
         margin: 50px 30px !important;
+    }
+
+    .cnphhead {
+        font-size: 40px;
     }
 
     /* CARD */
