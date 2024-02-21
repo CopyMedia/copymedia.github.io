@@ -97,7 +97,11 @@
     /* SLIDER */
 
     .slider-items img {
-        margin: 0 30px;
+        margin: 0 15px;
+    }
+
+    .prtner-logo {
+        height: 30px;
     }
 
     /* FOOTER */
