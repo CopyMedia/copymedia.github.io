@@ -55,6 +55,13 @@ const FooterHTML = `
                         <li><a href="#" class="feet-link">Infomationtechnology (IT)</a></li>
                     </ul>
                 </div>
+
+                <div class="footersection">
+                    <p class="fs-head">Information</p>
+                    <ul class="feet-nav_links">
+                        <li><a href="https://copymedia.github.io/sitemap.html" class="feet-link">Sitemap</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <p class="copyright">&copy; ${new Date().getFullYear().toString()}, CopyMedia. All Rights Reserved.</p>
