@@ -3,48 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mobile.css">
-    <script src="SiteHelper.js" defer></script>
-    <script src="onLoad.js" defer></script>
-    <title>Home | CopyMedia Entertainment</title>
-
-    <meta name="description" content="CopyMedia has stood for quality over success for over 7 years and played important roles in other teams">
-    
-    <meta content="en-us" property="locale"/>
-    <meta content="CopyMedia" property="site_name">
-    <meta content="https://github.com/CopyMedia/copymedia.github.io/blob/main/img/favicon.png" property="og:image">
-    <meta content="CopyMedia Entertainment: Home" property="title">
-    <meta content="CopyMedia has stood for quality over success for over 7 years and played important roles in other teams" property="og:description">
-    <meta content="#02245c" data-react-helmet="true" name="theme-color">
+    <title>Document</title>
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <header></header>
-    <div id="mobilenavbar" style="display: none;"></div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
-    <div class="mainpageheader">
-        <div class="mainpageheadercard">
-            <p class="mphhead">Doing the actual business</p>
-            <p class="mphtext">Dedicated to delivering captivating content and working with our partners globally.</p>
-            <a href="about.html" class="mphcard-btn">About us ►</a>
-        </div>
-    </div>
+        * {
+            font-family: 'DM Sans', sans-serif;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .container {
+                width: 90%;
+                padding: 30px;
+                gap: 15px;
+            }
+        }
+
+        h1 {
+            color: #3b3b3b;
+            font-weight: 600;
+        }
+
+        .centre {
+            text-align: center;
+        }
+
+        @media screen and (max-width: 600px) {
+            .logo {
+                width: 300px;
+            }
+        }
+    </style>
 
     <div class="container">
-        <p class="s-head default-txt centre">We Love our Partners:</p>
-        <div class="partnerlogos">
-            <div class="slider" id="slider">
-                <div class="slider-items" id="slider-items">
-                    <a href="https://entertainmasters.github.io/"><img src="./img/iocns/Cjhsdfhifsd.png" alt="Entertainmasters" class="prtner-logo"></a>
-                    <a href="https://copy05.github.io/"><img src="./img/iocns/CopyWealthLogo.png" alt="CopyWealth" class="prtner-logo"></a>
-                    <a href="https://agesoftoss.github.io/"><img src="./img/iocns/AgesoftLogo.png" alt="Agesoft" class="prtner-logo"></a>
-                    <a href="https://youtube.com/@ImprovityX"><img src="./img/iocns/PX_Logo.png" alt="CopyWealth" class="prtner-logo"></a>
-                </div>
+        <div class="header">
+            <div class="centre">
+                <img src="/img/Icon.png" alt="" class="logo">
             </div>
+            <h1>Thank you for visiting.</h1>
+            <p>Unfortunately, this website is no longer in service as this organization is out of business in favor of an internal decision by Entertainmasters.</p>
+            <p>If you have any questions, please contact us at <a href="mailto:info@entertainmasters.com">info@entertainmasters.com</a>. This decision was made to reduce the number of entities we own.</p>
+            <p>If you are looking for Entertainment, please visit Entertainmasters' website at <a href="https://entertainmasters.com">entertainmasters.com</a></p>
         </div>
     </div>
-
-    <footer></footer>
 </body>
 </html>
